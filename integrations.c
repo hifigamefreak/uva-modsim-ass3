@@ -1,4 +1,4 @@
-/* Bas Vlaszaty (5783445) & Joost Hekman (5887232)
+/* Joost Hekman (5887232)
  * Modelleren & Simuleren Assignment 3: Euler and Runge Kutta in C
  */
 

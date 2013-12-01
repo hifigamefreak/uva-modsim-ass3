@@ -1,4 +1,4 @@
-/* Bas Vlaszaty (5783445) & Joost Hekman (5887232)
+/* Joost Hekman (5887232)
  * Modelleren & Simuleren Assignment 3: Euler and Runge Kutta in C
  */
 #include <stdlib.h>
@@ -25,6 +25,7 @@ int f4(double t, double * y, double * dy, void * params) {
     return 0;
 }
 
+/* Ininitalisation method */
 int ftest(double t, double * y, double * dy, void * params) {
     int i = 0;
     struct param *pp = params;
@@ -36,7 +37,7 @@ int ftest(double t, double * y, double * dy, void * params) {
 return 0;
 }
 
-
+/* Main function */
 int main(void) {
     int dt = 0;
     double res1[1];
